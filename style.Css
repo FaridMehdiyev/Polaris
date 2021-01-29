@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    background-color: #333533;
+}
+
+header{
+    background-image: url("../Polaris-main/IMG/background_picture2bb.jpg");
+    height: 300px;
+    background-position: right center;
+    padding: 20px 0 0 0;
+}
+
+.header {
+    margin: 0 40px;
+    width: 400px;
+    border-radius: 20px;
+    align-self: left;
+    background-color: azure;
+    opacity: 0.8;
+    padding: 0 10px;
+}
+
+.header h1 {
+    color: rgba(255, 195, 18,1.0);    
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.header p {
+    color: rgba(24, 44, 97,1.0);
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 400;    
+    line-height: 24px;
+}
+
+nav {
+    padding-top: 0;
+    background-color: #ff9f1c;
+    width: 100%;
+    height: auto;
+}
+
+ul{
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+  
+li{
+    padding: 32px 0;
+    width: 200px;
+    display: inline-block;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+li a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.Logo{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Logo .logosection img{
+    width: 450px;
+    height: auto;
+}
+
+.infoOne, .InfoTwo{
+    height: auto;
+    margin: 50px 25px;
+}
+
+.infoOne{
+    background-color: #cca000;
+    border-radius: 30px;
+}
+.infoOne h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 20px;
+    text-align: center;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.infoOne p{
+    text-align: center;
+    padding-bottom: 20px;
+    color: #f7f7f7;
+    font-size: 25px;
+}
+
+.InfoTwo{
+    background-color: #f5cc00;
+    border-radius: 50px;
+    width: auto;
+}
+
+.InfoTwo p{
+    text-align: center;
+    padding: 40px 20px;
+    color: #012a4a;
+    font-size: 30px;
+    width: auto;
+}
+
+.signiture p{
+    text-align: right;
+    font-style: italic;
+}
+
+.footer{
+    padding-top: 30px;
+    height: auto;
+    width: auto;
+    background-color: #ff9f1c;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .part1{
+    margin: 0 30px;
+    height: auto;
+    width: auto;
+    background-color: #14213d;
+    text-align: center;    
+}
+
+.footer .part1 p{
+    color: white;
+    font-size: 30px;
+    align-items: center;
+}
+
+.footer .part1 ul {
+    padding: 0;
+}
+
+.footer .part1 li{
+    height: 15px;
+    width: 350px;
+    background-color: #1d3557;
+}
+
+.footer .part2{
+    margin: 30px 30px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    background-color: #023063;
+}
+
+.footer .part2 p{
+    padding-top: 20px;
+    color: #d4d9df;
+}
